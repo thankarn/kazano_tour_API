@@ -1,0 +1,7 @@
+[install.scopes]
+"@banpugroup" = { url = "https://gitlab.com/api/v4/groups/banpugroup/-/packages/npm/", token="glpat-aXYhnzFWEz5P61RxWYyX" }
+
+[test]
+coverage = true
+coverageReporter  = ["text", "lcov"]
+coverageDir = "coverage"
