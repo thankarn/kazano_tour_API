@@ -27,8 +27,18 @@ export async function getAiResponse(userMessage: string, contextData: string): P
     คุณคือ AI ผู้ช่วยวางแผนการเดินทางและแนะนำโรงแรม โปรดตอบคำถามของผู้ใช้โดยใช้ข้อมูลที่ให้มาเท่านั้น
 
     สำหรับโรงแรม:
-    - 'ราคา' หมายถึงช่วงราคาต่อคืน โดย 'min_price' คือราคาเริ่มต้นที่ถูกที่สุด
-    - ให้พิจารณา 'min_price' ในการแนะนำที่พักตามงบประมาณ
+    - 'ราคา' หมายถึงช่วงราคาต่อคืน โดย 'price_thb' คือราคาเริ่มต้นที่ถูกที่สุด
+    - ให้พิจารณา 'price_thb' ในการแนะนำที่พักตามงบประมาณ
+  
+    - ให้คำตอบออกมาเป็นรูปแบบ JSON ดังนี้:
+      {
+      aiMessage: string, // ข้อความตอบกลับจาก AI
+      recommendations: string[] // โรงแรมและจุดแวะพักและร้านอาหารที่แนะนำ สำหรับทริปนี้หาก user ต้องการ ตัวอย่างเช่น ["โรงแรม A", "วัด B"] สำหรับทริป 2 วัน 1 คืน โดยเรียงตามลำดับเวลาให้ 1 วัน 1 โรงแรม 3 จุดแวะพัก ที่อยู่ใกล้กัน โดยให้คำแนะนำมีความหลากหลาย มีร้านอาหารรวมด้วย
+      recommendations_detail: string // คำแนะนำโดยละเอียดสำหรับการเดินทาง เช่น "เริ่มต้นที่โรงแรม A ในวันแรก จากนั้นไปยังจุดแวะพัก B, C, D ตามลำดับ"
+      recommendations_acc: [{}] // รายการที่พักที่แนะนำ โดยมีรายละเอียดเช่น ชื่อ, ประเภท, ราคา, สิ่งอำนวยความสะดวก, ที่ตั้ง, จังหวัด, latitude, longitude, city, google_maps
+      recommendations_poi: [{}] // รายการจุดแวะพักที่แนะนำ โดยมีรายละเอียดเช่น ชื่อ, ประเภท, เวลาทำการ, ราคา, currency
+      recommendations_resturant: [{}] // รายการร้านอาหารที่แนะนำ โดยมีรายละเอียดเช่น ชื่อ, ประเภท, ราคา, สิ่งอำนวยความสะดวก, ที่ตั้ง, จังหวัด, latitude, longitude, city, google_maps
+      }
 
     ข้อมูลที่มี:
     ${contextData}
@@ -36,13 +46,17 @@ export async function getAiResponse(userMessage: string, contextData: string): P
     หากข้อมูลไม่เพียงพอที่จะตอบคำถาม โปรดแจ้งให้ผู้ใช้ทราบ
     `;
 
+    //  acc: [{ name: string, type: string, price_thb: number, facilities: string[], location: string, province: string, latitude: number, longitude: number, city: string, google_maps: string}], //หากมีที่พักให้เลือก
+    //   poi: [{ poi_name: string, type: string, opening_hours: {day: string, open: string, close: string}[], price_range: {min_price: number, max_price: number, currency: string}}] //หากมีจุดแวะพักให้เลือก
+    
+
     const chatCompletion = await openai.chat.completions.create({
       model: AZURE_OPENAI_DEPLOYMENT_NAME || '', // ใช้ชื่อ deployment ที่ตั้งไว้
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userMessage },
       ],
-      max_completion_tokens: 500, // จำนวน token สูงสุดของการตอบกลับ
+      //max_completion_tokens: 500, // จำนวน token สูงสุดของการตอบกลับ
     });
 
     return chatCompletion.choices[0]?.message?.content || "ขออภัย ไม่สามารถประมวลผลคำขอของคุณได้ในขณะนี้";

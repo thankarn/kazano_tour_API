@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Villa Sirilanna Hotel",
+    "location": "9/2 Ratchapakhinai Rd, Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.787,
+    "longitude": 98.992,
+    "price_thb": 2100,
+    "facilities": [
+      "สระว่ายน้ำ",
+      "Wi-Fi",
+      "บาร์/ร้านอาหาร"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.787,98.992&query_place_id=Villa%20Sirilanna%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Melia Chiang Mai",
+    "location": "56 Charoen Prathet Rd, Chang Khlan",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.787,
+    "longitude": 98.995,
+    "price_thb": 3150,
+    "facilities": [
+      "สระ",
+      "ฟิตเนส",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.787,98.995&query_place_id=Melia%20Chiang%20Mai",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Chiang Mai Marriott Hotel",
+    "location": "108 Chang Klan Rd, Chang Moi",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.789,
+    "longitude": 98.995,
+    "price_thb": 3500,
+    "facilities": [
+      "สระว่ายน้ำ",
+      "ฟิตเนส",
+      "ที่จอดรถ",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.789,98.995&query_place_id=Chiang%20Mai%20Marriott%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Rarin Villas",
+    "location": "ริมแม่น้ำปิง",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.789,
+    "longitude": 98.986,
+    "price_thb": 2800,
+    "facilities": [
+      "สระว่ายน้ำ",
+      "สปา"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.789,98.986&query_place_id=Rarin%20Villas",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Rachamankha Hotel",
+    "location": "9/1 Samlarn Rd, Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.788,
+    "longitude": 98.988,
+    "price_thb": 4200,
+    "facilities": [
+      "ดีไซน์ Lanna",
+      "สระ",
+      "บาร์"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.788,98.988&query_place_id=Rachamankha%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "The Inside House",
+    "location": "3/1 Sirimangkalajarn Rd, Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.787,
+    "longitude": 98.99,
+    "price_thb": 6300,
+    "facilities": [
+      "สระ",
+      "ร้านชา",
+      "บรรยากาศหรู"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.787,98.99&query_place_id=The%20Inside%20House",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Hotel Sensai Nimman (Adults Only)",
+    "location": "Nimmanhaemin Rd, Chang Phueak",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.798,
+    "longitude": 98.968,
+    "price_thb": 1925,
+    "facilities": [
+      "สระ",
+      "ที่จอดรถ",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.798,98.968&query_place_id=Hotel%20Sensai%20Nimman%20%28Adults%20Only%29",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Phor Liang Meun Terracotta Arts Hotel",
+    "location": "Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.786,
+    "longitude": 98.989,
+    "price_thb": 3325,
+    "facilities": [
+      "ปาร์ค",
+      "สระ",
+      "ร้านอาหาร"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.786,98.989&query_place_id=Phor%20Liang%20Meun%20Terracotta%20Arts%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Travelodge Nimman",
+    "location": "Nimmanhaemin Rd",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.797,
+    "longitude": 98.97,
+    "price_thb": 1750,
+    "facilities": [
+      "ฟิตเนส",
+      "สระ",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.797,98.97&query_place_id=Travelodge%20Nimman",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "We Briza Hotel Chiangmai",
+    "location": "Chang Moi",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.789,
+    "longitude": 98.992,
+    "price_thb": 2100,
+    "facilities": [
+      "สนามนวด",
+      "ฟรีรถรับส่งสนามบิน"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.789,98.992&query_place_id=We%20Briza%20Hotel%20Chiangmai",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Smile Lanna Hotel",
+    "location": "Hai Ya",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.786,
+    "longitude": 98.99,
+    "price_thb": 1925,
+    "facilities": [
+      "สปา",
+      "รถรับส่งสนามบิน"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.786,98.99&query_place_id=Smile%20Lanna%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Pleasant Chiangmai",
+    "location": "ถนนช้างคลาน",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.791,
+    "longitude": 98.995,
+    "price_thb": 2275,
+    "facilities": [
+      "รถรับส่ง",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.791,98.995&query_place_id=Pleasant%20Chiangmai",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Lanna Oriental Hotel",
+    "location": "Si Phum",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.789,
+    "longitude": 98.992,
+    "price_thb": 3920,
+    "facilities": [
+      "สระว่ายน้ำ",
+      "รถรับส่ง"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.789,98.992&query_place_id=Lanna%20Oriental%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Hinoki Hotel – Onsen",
+    "location": "Chang Phueak",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.796,
+    "longitude": 98.969,
+    "price_thb": 1785,
+    "facilities": [
+      "น้ำพุร้อน",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.796,98.969&query_place_id=Hinoki%20Hotel%20%E2%80%93%20Onsen",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Villa Duangchampa",
+    "location": "Si Phum",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.79,
+    "longitude": 98.992,
+    "price_thb": 2065,
+    "facilities": [
+      "สระ",
+      "รถรับส่ง"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.79,98.992&query_place_id=Villa%20Duangchampa",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Lamphu House Chiang Mai",
+    "location": "Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.787,
+    "longitude": 98.989,
+    "price_thb": 1575,
+    "facilities": [
+      "ฟรี Wi-Fi",
+      "ใกล้เกตเมืองเก่า"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.787,98.989&query_place_id=Lamphu%20House%20Chiang%20Mai",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Kampaeng Ngam Hotel",
+    "location": "Chang Khlan",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.789,
+    "longitude": 98.995,
+    "price_thb": 2310,
+    "facilities": [
+      "ฟรีรถรับส่ง",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.789,98.995&query_place_id=Kampaeng%20Ngam%20Hotel",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "The Opium Chiang Mai",
+    "location": "Chang Phueak",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.797,
+    "longitude": 98.97,
+    "price_thb": 2380,
+    "facilities": [
+      "สระ",
+      "ฟิตเนส",
+      "Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.797,98.97&query_place_id=The%20Opium%20Chiang%20Mai",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Your Space Hotel Prasingh",
+    "location": "Phra Sing",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.787,
+    "longitude": 98.988,
+    "price_thb": 2100,
+    "facilities": [
+      "ร้านกาแฟ",
+      "ฟรี Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.787,98.988&query_place_id=Your%20Space%20Hotel%20Prasingh",
+    "type": "โรงแรม"
+  },
+  {
+    "name": "Eastin Tan Hotel Chiang Mai",
+    "location": "เมืองเชียงใหม่",
+    "city": "เมืองเชียงใหม่",
+    "province": "เชียงใหม่",
+    "latitude": 18.79,
+    "longitude": 98.993,
+    "price_thb": 2450,
+    "facilities": [
+      "ฟิตเนส",
+      "สระ",
+      "Wi-Fi"
+    ],
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=18.79,98.993&query_place_id=Eastin%20Tan%20Hotel%20Chiang%20Mai",
+    "type": "โรงแรม"
+  }
+]

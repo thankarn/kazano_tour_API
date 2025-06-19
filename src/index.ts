@@ -8,13 +8,12 @@ import AskPlugin from "./plugin/openai/plugin";
 
 //ai.start();
 
-const port = process.env.PORT || 3000;
 const app = new Elysia()
   .use(cors())
   .use(swagger())
   //.use(healthCheck.plugin)
-  .use(AskPlugin)
-  .listen(port);
+  .use(AskPlugin.plugin)
+  .listen(3000);
 
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`

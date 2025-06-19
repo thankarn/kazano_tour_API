@@ -1,4 +1,4 @@
-import Elysia from "elysia";
+import Elysia, { t } from "elysia";
 import { Setup } from "./setup";
 import { PluginBase } from "../../utils/common/plugin";
 
@@ -20,9 +20,18 @@ class AskPlugin<T extends typeof e> extends PluginBase<T> {
 
   private _ask() {
     this._plugin.post("/", async ({ service, body }) => {
-      return service.askAI(body);
+      return await service.askAI(body);
     }, {
       body: 'reqAskModel',
+      response: 'tripPlanResponseSchema'
+    });
+  }
+
+  private _getPlaceDetail() {
+    this._plugin.get("/place-detail/:id/:type", async ({ service, params }) => {
+      return "todo implement get place detail";
+    }, {
+      params: t.Object({ id: t.String(), type: t.String() }),
     });
   }
 
@@ -31,6 +40,4 @@ class AskPlugin<T extends typeof e> extends PluginBase<T> {
   }
 }
 
-const ask = new AskPlugin(e);
-export default ask.plugin;
-
+export default new AskPlugin(e);
