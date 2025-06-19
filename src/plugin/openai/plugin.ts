@@ -31,4 +31,6 @@ class AskPlugin<T extends typeof e> extends PluginBase<T> {
   }
 }
 
-export default new AskPlugin(e);
+const ask = new AskPlugin(e);
+export default ask.plugin;
+

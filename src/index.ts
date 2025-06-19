@@ -12,7 +12,7 @@ const app = new Elysia()
   .use(cors())
   .use(swagger())
   //.use(healthCheck.plugin)
-  .use(AskPlugin.plugin)
+  .use(AskPlugin)
   .listen(3000);
 
 console.log(
